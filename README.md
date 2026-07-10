@@ -2,7 +2,8 @@
 
 Este repositório contém um exemplo simples de classificação usando `@tensorflow/tfjs` em Node.js. O objetivo é demonstrar como treinar um modelo denso (MLP) para classificar perfis em três categorias (`premium`, `medium`, `basic`) e como gerar previsões.
 
-![Preview](assets/preview.png)
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/d71431f0-5477-40a7-b3b2-8e918e024c1c" />
+
 
 **Descrição**: Este projeto treina um modelo sequencial com uma camada oculta e uma camada de saída com `softmax`. Os dados de entrada são vetores normalizados que representam características de pessoas, e os rótulos são vetores one-hot.
 
