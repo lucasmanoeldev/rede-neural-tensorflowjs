@@ -52,16 +52,3 @@ Se preferir um nome diferente, atualize o caminho da imagem neste arquivo.
 **Contribuições**:
 - Sinta-se à vontade para abrir issues ou pull requests com melhorias, exemplos de normalização, mais dados de treino ou integração com pipelines reais.
 
-**Como commitar e enviar**:
-
-```bash
-git add README.md assets/preview.png
-git commit -m "Adiciona README e imagem de preview"
-git push origin main
-```
-
-**Licença**: Coloque aqui a licença que desejar (ex: MIT) ou remova esta seção se não aplicável.
-
----
-
-Se quiser, posso também adicionar o arquivo de imagem ao repositório (se você me enviar o arquivo) ou ajustar o texto em inglês/português formal/conciso — diga como prefere.
