@@ -1,4 +1,4 @@
-**Rede Neural com tensorflowjs**
+# Rede Neural com TensorFlow.js
 
 Este repositório contém um exemplo simples de classificação usando `@tensorflow/tfjs` em Node.js. O objetivo é demonstrar como treinar um modelo denso (MLP) para classificar perfis em três categorias (`premium`, `medium`, `basic`) e como gerar previsões.
 
@@ -37,15 +37,6 @@ Isso irá treinar o modelo (com logs de loss por epoch) e imprimir as probabilid
 **Estrutura principal**:
 - **`index.js`**: Script principal que prepara dados, treina o modelo e executa previsões.
 
-**Importante sobre a imagem**:
-- A imagem exibida acima (`assets/preview.png`) é apenas uma pré-visualização do resultado/terminal. Para que ela apareça no README quando hospedado no GitHub, adicione o arquivo de imagem no caminho `assets/preview.png` no repositório antes de commitar.
-
-Sugestão de nome e pasta:
-
-- `assets/preview.png`
-
-Se preferir um nome diferente, atualize o caminho da imagem neste arquivo.
-
 **Notas sobre o código**:
 - O modelo usa `inputShape: [7]` e `units: 80` na camada oculta (ReLU), e `units: 3` com `softmax` na saída.
 - As labels estão em ordem: `['premium', 'medium', 'basic']` — mantenha essa ordem ao interpretar as probabilidades.
@@ -53,3 +44,10 @@ Se preferir um nome diferente, atualize o caminho da imagem neste arquivo.
 **Contribuições**:
 - Sinta-se à vontade para abrir issues ou pull requests com melhorias, exemplos de normalização, mais dados de treino ou integração com pipelines reais.
 
+
+
+## Reprodutibilidade e limites
+
+Use `npm ci` para instalar as versões do `package-lock.json` e `node index.js` para executar uma vez. `npm start` inicia o modo de observação. O script `npm test` ainda é um placeholder e não representa uma suíte de testes.
+
+O treinamento usa apenas três exemplos sintéticos. Este projeto demonstra o fluxo de uma rede neural; as probabilidades variam entre execuções e não medem precisão em dados reais.
